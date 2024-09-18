@@ -1,0 +1,177 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+
+}
+
+.toDo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 7.2rem;
+
+}
+
+.container {
+
+    background-color: #e5e7eb;
+
+    filter: none;
+    z-index: 0;
+    padding: 6.4rem;
+
+    border-radius: 6px;
+}
+/* **** Input field Add Button And date field***** */
+.inputAndButton {
+    margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+input {
+    background-color: #fff;
+
+    border-radius: 10px;
+    border: hidden;
+    padding: 5px 20px;
+}
+
+.inputField {
+    width: 40rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    border: hidden;
+    padding: 8px 4rem;
+    background-color: #ec4899;
+}
+
+.datepicker {
+
+    width: 15px;
+    height: 23px;
+
+}
+
+/* ****** list items edit and cross button and due date*****/
+.ul-List {
+    width: 100%;
+    padding: 2px 0px 0px 0px;
+    max-width: 620px;
+
+}
+
+.ul-List li {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid;
+    margin-top: 1.2rem;
+    padding: 5px 9px;
+    background: #fff;
+    border: hidden;
+    height: 26px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.tasks {
+    flex-grow: 1;
+}
+
+.checkBox {
+    height: 20px;
+    width: 15px;
+
+}
+
+.editBtn {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    color: #dc2626;
+    background-color: #fee2e2;
+    border-radius: 7px;
+    border: hidden;
+    font-weight: 500;
+    padding: 3px 8px;
+}
+
+
+.crossBtn {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    border: hidden;
+    padding: 3px 10px;
+    color: #dc2626;
+    background-color: #fee2e2;
+    border-radius: 8px;
+}
+
+.date {
+    color: #22c55e;
+    background-color: #dcfce7;
+    padding: 2px 12px;
+    border-radius: 10px;
+    visibility: visible;
+    font-size: 12px;
+}
+
+/* **** Sort Buttons and error message******** */
+.Sort {
+    display: flex;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+
+.btn03 {
+    padding: 6px 1.5rem;
+    background-color: #6366f1;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    border: hidden;
+}
+
+.sectionCompletedTask {
+    position: absolute;
+    z-index: 12;
+    left: 0;
+    right: 0;
+    margin: -25rem auto;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+
+
+
+}
+
+.Completed-task {
+
+    background-color: #fff;
+    box-shadow: 12px 12px 50px rgba(0, 0, 0, 1);
+    border-radius: 6px;
+    padding: 0 20rem 20rem 20rem;
+
+}
+
+.errorMessage {
+    color: red;
+    display: block;
+    font-size: 17px;
+
+}
